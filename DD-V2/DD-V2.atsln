@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "DD-V2", "DD-V2\DD-V2.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C} = {1CC46BAB-A5CD-43F7-A32B-57158BDF347C}
+	EndProjectSection
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "DD-V2-OTA", "..\DD-V2-OTA\DD-V2-OTA\DD-V2-OTA.cproj", "{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		APP_BOOTLOAD|ARM = APP_BOOTLOAD|ARM
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.APP_BOOTLOAD|ARM.ActiveCfg = APP_BOOTLOAD|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.APP_BOOTLOAD|ARM.Build.0 = APP_BOOTLOAD|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.Build.0 = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.ActiveCfg = Release|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.Build.0 = Release|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.APP_BOOTLOAD|ARM.ActiveCfg = APP_BOOTLOAD|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.APP_BOOTLOAD|ARM.Build.0 = APP_BOOTLOAD|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.Debug|ARM.Build.0 = Debug|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.Release|ARM.ActiveCfg = Release|ARM
+		{1CC46BAB-A5CD-43F7-A32B-57158BDF347C}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

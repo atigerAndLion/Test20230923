@@ -1,0 +1,15 @@
+"C:\SoftInstall\IAR830\arm\bin\armproc.dll" 
+
+"C:\SoftInstall\IAR830\arm\bin\armstlink2.dll" 
+
+"E:\FeiMaoTui\Project\stm32_功耗测试\1017\EWARM\1017\Exe\1017.out" 
+
+--plugin="C:\SoftInstall\IAR830\arm\bin\armbat.dll" 
+
+--device_macro="C:\SoftInstall\IAR830\arm\config\debugger\ST\STM32L4xx.dmac" 
+
+--flash_loader="C:\SoftInstall\IAR830\arm\config\flashloader\ST\FlashSTM32L43xxC.board" 
+
+
+
+
